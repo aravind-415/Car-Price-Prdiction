@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 10px;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+/*########################### NavBar ########################### */
+
+.nav{
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 0px;
+}
+.nav-logo{
+    margin-top: 10px;
+}
+.icon{
+    padding-bottom: 11px;
+    transform: translate(25px,-15px);
+}
+.search-box{
+    padding:10px;
+    margin: 10px;
+}
+.text{
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid #03e9f4;
+    outline: none;
+    width: 310px;
+    height: 50px;
+}
+.search-box input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: .5s;
+}
+.search img{
+    cursor: pointer;
+    margin-bottom: 7px;
+    border-left: 1px solid #03e9f4;
+    transform: translate(-60px,0px);
+}
+.search img:hover{
+    width: 41px;
+    height: 41px;
+    transition: 0.5s;
+}
+
+
+/*####################################### CAR DEATILS #############################################*/
+
+.cars{
+    text-align: left;
+    color: #03e9f4;
+    border-right: 2px solid white;
+    width: 600px;
+    height: 800px;
+}
+.cars h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    transform: translate(40px, 300px);
+    text-shadow: 2px 2px 5px #03e9f4;
+}
+
+form {
+    position: relative;
+    height: 100%;
+    width: 35rem;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+  
+.login-box h2 {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color:#03e9f4;
+    text-align: center;
+}
+.login-box .user-box {
+    position: relative;
+}
+  
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box input:focus{
+    border-bottom: 1px solid #03e9f4;
+}
+.login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+.login-box a span {
+    position: absolute;
+}
+.login-box input number{
+    border: none;
+}
+
+#submit{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+#submit:hover {
+    border: none;
+    background: #03e9f4;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 10px #03e9f4,
+                0 0 100px #03e9f4;
+    font-weight: 600;
+}
+
+
+/*####################################### OUTPUT #############################################*/
+
+.det h3{
+    color: #03e9f4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+
+}
+.det p{
+    transform: translate(0px, -25px);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+.car-name{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    transform: translate(0px,-10px);
+}
+.price h3{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border: 1px solid #03e9f4;
+    border-radius: 5px;
+    background: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 10px #03e9f4,
+                0 0 0px #03e9f4;
+}
